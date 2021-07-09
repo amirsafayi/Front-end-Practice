@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>
+        html
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .d_flex {
+            display: flex;
+            justify-content: space-between;
+            max-width: 1500px;
+            min-width: 1200px;
+        }
+
+        .col_3 {
+            flex: 0 0 80%;
+            margin: auto;
+        }
+
+        .baner {
+            position: relative;
+            top: 80px;
+            margin: 20px;
+            padding: 100px 120px 300px 80px;
+            border-radius: 8px;
+            border-bottom: 5px solid #DCDCDC;;
+
+        }
+
+        .Button {
+            position: absolute;
+            top: 310px;
+            left: 50px;
+            padding: 10px 40px 10px 40px;
+            color: white;
+        }
+
+        .img {
+            width: 170px;
+            height: 170px;
+            position: absolute;
+            top: 25px;
+            right: 13px;
+
+        }
+
+        .bg_Black {
+            background: #0a0d16;
+        }
+
+        @keyframes K {
+            0% {
+                top: 80px;
+            }
+            100% {
+                top: 75px;
+                box-shadow: 15px 8px 50px rgb(240 240 240), -15px -8px 50px rgb(240 240 240);
+                background: #DCDCDC;
+            }
+        }
+
+        @keyframes KH {
+            0% {
+                background: #0a0d16;
+                top: 310px;
+            }
+            100% {
+                background: #2aa198;
+                top: 308px;
+            }
+        }
+
+        .Button:hover {
+            animation: KH 0.4s 1 forwards;
+        }
+
+        .baner:hover {
+            animation: K 0.7s 1 forwards;
+        }
+
+        .text2 {
+            position: absolute;
+            top: 250px;
+            left: 45px;
+            font-size: 12px;
+            font-weight: 300;
+        }
+
+        .text1 {
+            position: absolute;
+            top: 150px;
+            left: 75px;
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        .text3 {
+            position: absolute;
+            top: 360px;
+            left: 55px;
+            font-size: 12px;
+            font-weight: 300;
+            color: #2aa198;;
+        }
+    </style>
+</head>
+<body>
+<div class="d_flex">
+    <div class="col_3">
+        <span class="baner"> <img src="IMG_20210626_011459_562.jpg" class="img"> <p class="text2">سلاج  ستح حق با شماست جناپ </p><p
+                class="text1">13</p><p class="Button bg_Black">گوزن</p> <p class="text3">10000006660000001</p></span>
+        <span class="baner"> <img src="IMG_20210626_011459_562.jpg" class="img"><p class="text2">سلاج  ستح حق با شماست جناپ </p><p
+                class="text1">666</p><p class="Button bg_Black">پلیکان</p><p class="text3">10000006660000001</p></span>
+        <span class="baner"><img src="IMG_20210626_011459_562.jpg" class="img"><p class="text2">سلاج  ستح حق با شماست جناپ </p><p
+                class="text1">313</p><p class="Button bg_Black">حرکت</p><p class="text3">10000006660000001</p></span>
+        <span class="baner"><img src="IMG_20210626_011459_562.jpg" class="img"><p class="text2">سلاج  ستح حق با شماست جناپ </p><p
+                class="text1">4</p><p class="Button bg_Black">66.6</p><p class="text3">10000006660000001</p></span>
+    </div>
+</div>
+</body>
+</html>
+
+
