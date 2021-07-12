@@ -1,0 +1,184 @@
+<html>
+<head>
+    <title>
+        html
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .d_flex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text_baner {
+            margin: 20px;
+            padding: 5px 10px;
+            font-size: 12px;
+            color: white;
+            font-weight: 900;
+            text-align: start;
+            border-radius: 3px;
+        }
+
+        .text_baner2 {
+            margin: 10px;
+            font-size: 12px;
+            font-weight: 700;
+            text-align: center;
+            border-radius: 3px;
+        }
+
+        .text_baner3 {
+            margin: 10px;
+            padding: 10px 30px;
+            font-size: 14px;
+            font-weight: 900;
+            color: blue;
+            text-align: end;
+            border-radius: 3px;
+        }
+
+        .img {
+            position: relative;
+            top: 70px;
+            left: 150px;
+            height: 350px;
+            width: 350px;
+            animation: img 3.2s 1 forwards;
+        }
+
+        .text_img {
+            position: absolute;
+            top: 200px;
+            left: 900px;
+            font-weight: 900;
+            font-size: 35px;
+            width: 350px;
+            text-align: right;
+        }
+
+        .text_img2 {
+            position: absolute;
+            top: 300px;
+            left: 850px;
+            font-weight: 700;
+            font-size: 19px;
+            width: 400px;
+            text-align: right;
+            opacity: 0.3;
+        }
+
+        .Button_img {
+            position: absolute;
+            top: 420px;
+            left: 1150px;
+            padding: 10px 20px;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            border-radius: 3px;
+
+        }
+
+        .Button_img2 {
+            position: absolute;
+            top: 420px;
+            left: 1000px;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 900;
+            border-radius: 3px;
+
+        }
+
+        .Beauty {
+            position: relative;
+            top: 200px;
+            left: 190px;
+            font-size: 20px;
+            color: hotpink;
+            width: 100px;
+            animation: Beauty 20s 2s infinite alternate;
+        }
+
+
+        .bg_blue {
+            background: #6dc1e7;
+        }
+
+        .text_blue {
+            color: blue;
+        }
+
+        #a:link {
+            text-decoration: none;
+        }
+
+        #a:visited {
+
+        }
+
+        #a:hover {
+            font-size: 15px;
+        }
+
+        @keyframes img {
+            0% {
+                top: 50px;
+                left: -300px;
+                height: 250px;
+                width: 250px;
+            }
+            100% {
+                top: 70px;
+                left: 150px;
+                height: 350px;
+                width: 350px;
+            }
+
+        }
+
+        @keyframes Beauty {
+            0% {
+                top: 200px;
+                left: 190px;
+                font-size: 20px;
+                color: hotpink;
+                width: 100px;
+            }
+            100% {
+                top: 70px;
+                left: 700px;
+                font-size: 20px;
+                color: hotpink;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="d_flex">
+    <a id="a" href="https://www.google.com/" class="text_baner bg_blue">هم اکنون خریداری کنید</a>
+    <div class="text_baner2">
+        <div class="d_flex">
+            <a id="a" href="https://www.google.com/" class="text_baner2 text_blue">صفحه اصلی</a>
+            <a id="a" href="https://www.google.com/" class="text_baner2">المنت</a>
+            <a id="a" href="https://www.google.com/" class="text_baner2">حساب کاربری</a>
+            <a id="a" href="https://www.google.com/" class="text_baner2">مستندات</a>
+        </div>
+    </div>
+    <div class="text_baner3">لندینگ فروش کیان</div>
+</div>
+<span>
+    <img src="IMG-20210711-WA0023.jpg" class="img">
+    <p class="text_img">با قالب لندینگ فروش کیان حرفه ای تر بفروشید</p>
+    <p class="text_img2"> طراحی لندینگ پیج بر اساس ساختار های سئو جهت فروش بیشتر ساخته شده <br>بر اساس بوت 5</p>
+    <a id="a" href="https://www.google.com/" class="Button_img bg_blue">مشاهده دمو</a>
+      <a id="a" href="https://www.google.com/" class="Button_img2 text_blue">شروع کنید</a>
+    <p class="Beauty">*</p>
+</span>
+</body>
+</html>
+
+
