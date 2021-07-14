@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Iransans_Thin";
+  src: url('IRANSansWeb_Light.woff') format("woff"), url(../fonts/IRANSansWeb_Light.ttf?e5b2acaef933a97fa3fb026d8ee73d46) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Iransans_Web";
+  src: url('IRANSansWeb.woff') format("woff"), url(../fonts/IRANSansWeb.ttf?244a401eb43afb0fe739f8dcd8530ae4) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IransansWeb_Black";
+  src: url('IRANSansWeb_Black.woff') format("woff"), url(../fonts/IRANSansWeb_Black.ttf?7174439308f3d61c0c1f67fd3e052c78) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IransansWeb_Medium";
+  src: url('IRANSansWeb_Medium.woff') format("woff"), url(/fonts/IRANSansWeb_Medium.ttf?894895856574b0e65e2739d1a2d1de42) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IransansWeb_UltraLight";
+  src: url('IRANSansWeb_UltraLight.woff') format("woff"), url(/fonts/IRANSansWeb_UltraLight.ttf?f8a4f6910724c0373ffd38add5cea6ac) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Iransans";
+  src: url('IRANSansWeb.woff') format("woff"), url(/fonts/IRANSansWeb.ttf?244a401eb43afb0fe739f8dcd8530ae4) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Iransans_Bold";
+  src: url('IRANSansWeb_Bold.woff') format("woff"), url(/fonts/IRANSansWeb_Bold.ttf?9471804b0f92127716fabbbb2c6647e5) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: IRANSans, sans-serif;
+}
