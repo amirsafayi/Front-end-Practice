@@ -120,6 +120,10 @@
             background: #00008b;
         }
 
+        .bg_green {
+            background: seagreen;
+        }
+
         .bg_sky_blue {
             background: #E0FFFF;
         }
@@ -130,6 +134,10 @@
 
         .text_blue {
             color: blue;
+        }
+
+        .text_white {
+            color: white;
         }
 
         #a:link {
@@ -217,6 +225,7 @@
             margin-top: 222px;
             height: 1300px;
             width: 100%;
+            border-radius: 50px;
         }
 
         .baner_blue2 {
@@ -228,9 +237,10 @@
 
         .baner_Navy_blue {
             position: relative;
-            margin-top: 900px;
+            margin-top: 850px;
             height: 1200px;
             width: 100%;
+            border-radius: 80px;
         }
 
         .baner_white {
@@ -592,12 +602,104 @@
 
         }
 
-        .ul2_baner3_white {
+        .ul_baner_Navy_blue {
             position: absolute;
-            font-size: 30px;
-            color: green;
+            font-size: 22px;
+            font-weight: bold;
+            top: 180px;
+            right: 30px;
+            text-align: right;
+            list-style-type: none;
 
         }
+
+        .ul2_baner_Navy_blue {
+            position: absolute;
+            font-size: 22px;
+            font-weight: bold;
+            top: 180px;
+            left: 30px;
+            text-align: right;
+            list-style-type: none;
+
+        }
+
+        .Description_ul {
+            position: absolute;
+            font-size: 17px;
+            font-weight: bold;
+            top: 170px;
+            right: 150px;
+            text-align: right;
+            list-style-type: none;
+            opacity: 0.4;
+
+        }
+
+        .Description_ul2 {
+            position: absolute;
+            font-size: 17px;
+            font-weight: bold;
+            top: 360px;
+            left: 95px;
+            text-align: right;
+            list-style-type: none;
+            opacity: 0.4;
+
+        }
+
+        .Button_baner_Navy_blue {
+            position: absolute;
+            top: 800px;
+            right: 47%;
+            border-radius: 5px;
+            padding: 2px 7px 2px 7px;
+            font-size: 15px;
+            font-weight: 600;
+        }
+
+        .text_baner_Navy_blue {
+            position: absolute;
+            top: 850px;
+            right: 31%;
+            font-size: 30px;
+            font-weight: 600;
+
+        }
+
+        .text2_baner_Navy_blue {
+            position: absolute;
+            top: 900px;
+            right: 27%;
+            font-size: 14px;
+            font-weight: 700;
+            opacity: 0.4;
+            text-align: center;
+        }
+
+        .Button2_baner_Navy_blue {
+            position: absolute;
+            top: 1050px;
+            right: 600px;
+            border-radius: 2px;
+            padding: 8px 12px 8px 12px;
+            font-size: 17px;
+            font-weight: 400;
+        }
+
+        .li {
+            position: absolute;
+            top: 1200px;
+            margin-top: 70px;
+            right: 450px;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: right;
+            list-style-type: none;
+            opacity: 0.5;
+        }
+
+
     </style>
 </head>
 <body>
@@ -702,7 +804,48 @@
                 قیمت گذاری با<br>بسته برای محصولات خود تنظیم کردند
             </div>
         </div>
+        <ul class="ul_baner_Navy_blue text_white">
+            <li style="margin: 150px">
+                آیا بروزرسانی رایگان دریافت می کنم؟
+                <p class="Description_ul">bootstrap آره ما تمام مضامین خود را با هر بروز رسانی<br> به روز میکنیم بعلاوه
+                    components های بیشتری در این معبد موجود است <br> دائما و میتوانیم از ان به دنبال مستندات استفاده
+                    کنیم</p>
+            </li>
+            <li style="margin: 150px">آیا میتوانم با این الگو یک پروژه کامل بسازم؟
+                <p class="Description_ul2">bootstrap آره ما تمام مضامین خود را با هر بروز رسانی<br> به روز میکنیم بعلاوه
+                    components های بیشتری در این معبد موجود است <br>دائما و میتوانیم از ان به دنبال مستندات استفاده کنیم
+                </p>
+            </li>
+        </ul>
+        <ul class="ul2_baner_Navy_blue text_white">
+            <li style="margin: 150px">آیا میتوانم مرتبا بروزرسانی کنم؟
+                <p class="Description_ul">bootstrap آره ما تمام مضامین خود را با هر بروز رسانی<br> به روز میکنیم بعلاوه
+                    components های بیشتری در این معبد موجود است <br> دائما و میتوانیم از ان به دنبال مستندات استفاده
+                    کنیم</p>
+            </li>
+            </li>
+            <li style="margin: 150px">چگونه میتوانم پشتیبانی مشتری را دریافت کنم؟
+                <p class="Description_ul2">bootstrap آره ما تمام مضامین خود را با هر بروز رسانی<br> به روز میکنیم بعلاوه
+                    components های بیشتری در این معبد موجود است <br> دائما و میتوانیم از ان به دنبال مستندات استفاده
+                    کنیم</p>
+            </li>
+        </ul>
+        <a id="a" href="https://www.google.com/" class="Button_baner_Navy_blue bg_white  text_blue">شروع کنید</a>
+        <div class="text_baner_Navy_blue text_white">قالب را بگیرید و در وقت صرفه جویی کنید</div>
+        <div class="text2_baner_Navy_blue text_white"> تیم ما در طراحی و ساخت سیستم های بصری که تعداد زیادی از اطلاعات
+            را به کاربر پسند ترین حالت ذخیره و <br>ارائه میکند از تجربه های جلو و عقب برخوردار است
+        </div>
+        <a id="a" href="https://www.google.com/" class="Button2_baner_Navy_blue bg_green  text_white"><--الان بخرش</a>
+        <ul class="li">
+            <li>محصولات</li>
+            <li>صفحه ساز</li>
+            <li>قالب ساز</li>
+            <li>راهنمای سبک</li>
+            <li>مستندات</li>
+            <li>تغیرات</li>
+        </ul>
     </div>
 </div>
+
 </body>
 </html>
